@@ -1,0 +1,39 @@
+.navigation {
+  height: inherit;
+  width: inherit;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 0px 0px 5px 5px;
+
+  .logo-container {
+    height: 100%;
+    width: 100px;
+    padding: 25px;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      padding: 10px 25px;
+      cursor: pointer;
+      font-family: "Open Sans Condensed";
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+}
